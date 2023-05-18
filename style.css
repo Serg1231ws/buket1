@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+h1 {    
+    background-color: rgb(255, 0, 149);
+    text-align: center;
+    font-family: Stencil Std, fantasy;	
+}
+
+.catalog {
+    font-size: 27px;
+    color: rgb(255, 0, 149);
+    margin: 250px;
+    font-family: cursive;
+}
+
+.catalog:hover {
+    color: black;
+}
+
+h2 {
+    color: rgb(255, 0, 149);
+    text-align: center;
+    font-size: 27px;
+    font-family: cursive;
+}
+
+ol {
+    font-size: 20px;
+    color: rgb(255, 0, 149);
+    font-family: cursive;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 0px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.footer-tex span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.footer-tex::before {
+    font-size: 24px;
+    margin-right: 0px;
+    content: "📞";
+    font-size: 24px ;
+    margin-right: 0px;
+}
+.dom {
+    color: #850AE5;
+    font-weight: bolder;
+}
